@@ -1,0 +1,18 @@
+{
+	"extname": {
+		"message": "YT Video Downloader",
+		"description": "Extension name."
+	},
+	"extdesc": {
+		"message": "Allows you to download YT Videos. Requires github.com/j0code/ytdl-web",
+		"description": "Extension description."
+	},
+	"views": {
+		"message": "Views",
+		"description": "Video views label"
+	},
+	"likes": {
+		"message": "Likes",
+		"description": "Video likes label"
+	}
+}

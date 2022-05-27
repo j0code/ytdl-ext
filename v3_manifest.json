@@ -1,0 +1,26 @@
+{
+	"manifest_version": 3,
+	"name": "__MSG_extname__",
+	"version": "2022.5.26",
+	"default_locale": "en",
+	"description": "__MSG_extdesc__",
+	"author": "j0code",
+	"short_name": "ytdl-web",
+	"version_name": "2022-05-26",
+
+	"action": {
+		"default_title": "__MSG_extname__",
+		"default_popup": "popup.html"
+	},
+
+	"icons": {
+		"16": "assets/logo_16.png",
+    "32": "assets/logo_32.png",
+    "48": "assets/logo_48.png",
+    "128": "assets/logo_128.png"
+	},
+
+	"permissions": ["tabs"],
+	"host_permissions": ["https://youtube.com/*"]
+
+}

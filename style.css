@@ -1,0 +1,75 @@
+html, body {
+	margin: 0;
+	background-color: rgba(33, 33, 33, 0.98); /* --yt-spec-brand-background-primary */
+	color: #ffffff;
+	width: 520px;
+}
+
+div {
+	display: flex;
+}
+
+#wrapper {
+	padding: 20px 40px 20px 40px;
+	flex-direction: column;
+	position: sticky;
+	top: 0;
+	background: rgb(33, 33, 33)
+}
+
+#video-stats {
+	font-size: 20px;
+}
+
+#video-stats div {
+	padding: 2px;
+}
+
+#preview {
+	width: 360px;
+}
+
+#preview.video {
+	height: 202.5px;
+}
+
+#formats {
+	flex-direction: column;
+	padding: 10px 0px 10px 0px;
+}
+
+.format {
+	padding: 10px 40px 10px 40px;
+	cursor: pointer;
+	justify-content: space-between
+}
+
+.format:hover {
+	background-color: #ffffff20;
+}
+
+.format div {
+  align-items: center;
+}
+
+.icon-enc {
+  width: 56px;
+  justify-content: space-between;
+}
+
+.icon {
+	width: 16px;
+	height: 16px;
+}
+
+.encoding {
+	width: 35px;
+}
+
+.resolution {
+	width: 50px;
+}
+
+.codecs {
+	width: 90px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>YT Video Downloader</title>
+		<link href="./style.css" rel="stylesheet">
+		<script src="./util.js"></script>
+		<script src="./popup.js" type="module"></script>
+	</head>
+	<body id="popup">
+		<div id="wrapper">
+			<h1 id="title">
+				YT Video Downloader
+			</h1>
+			<!--<div id="video-stats">
+				<div id="views"></div>
+				<div id="views-label"></div>
+				<div id="likes"></div>
+				<div id="likes-label"></div>
+				<div id="channelname"></div>
+			</div>-->
+			<video id="preview" width=360 height=0 controls>
+				Video loading...
+			</video>
+		</div>
+		<div id="formats"></div>
+	</body>
+</html>
