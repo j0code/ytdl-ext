@@ -1,12 +1,12 @@
 {
 	"manifest_version": 3,
 	"name": "__MSG_extname__",
-	"version": "2022.5.26",
+	"version": "2022.5.27",
 	"default_locale": "en",
 	"description": "__MSG_extdesc__",
 	"author": "j0code",
 	"short_name": "ytdl-web",
-	"version_name": "2022-05-26",
+	"version_name": "2022-05-27",
 
 	"action": {
 		"default_title": "__MSG_extname__",
