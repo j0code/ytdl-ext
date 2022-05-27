@@ -19,6 +19,6 @@
     "128": "assets/logo_128.png"
 	},
 
-	"permissions": ["tabs","https://youtube.com/*"]
+	"permissions": ["activeTab"]
 
 }

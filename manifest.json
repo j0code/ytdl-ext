@@ -20,7 +20,6 @@
     "128": "assets/logo_128.png"
 	},
 
-	"permissions": ["tabs"],
-	"host_permissions": ["https://youtube.com/*"]
+	"permissions": ["activeTab"]
 
 }
